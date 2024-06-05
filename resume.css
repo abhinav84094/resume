@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+#resume_body{
+    height: 500px;
+    width: 380px;
+    border: 1px solid black;
+    display: flex;
+}
+
+#profile{
+    height: 490px;
+    width: 160px;
+    /* border: 1px solid black; */
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    height: 490px;
+    width: 210px;
+    /* border: 1px solid black; */
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#id{
+    background-color: rgb(126, 126, 225);
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.git_id{
+    display: flex;
+    gap: 5px;
+}
+
+#id+div{
+    background-color: rgb(92, 89, 89);
+    height: 330px;
+    width: 100%;
+}
+
+.contact{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.contact>div{
+    font-size: 0.8em;
+    padding-left: 20px;
+}
+
+.skill{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.skill>div{
+    font-size: 0.8em;
+    padding-left: 20px;
+}
+li{
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+.certificate{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.certificate>div{
+    font-size: 0.8em;
+    padding-left: 20px;
+}
+
+
+#objective{
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+#experience{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+#project{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+#education{
+    padding: 10px;
+    height: 240px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+li~div{
+    font-size: 0.8em;
+    padding-left: 27px;
+}
+
+.heading{
+    font-size: 1.0em;
+    color: rgb(92, 92, 244);
+    text-decoration: underline;
+}
+.heading+div{
+    font-size: 0.8em;
+}
